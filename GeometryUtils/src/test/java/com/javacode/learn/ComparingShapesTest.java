@@ -8,19 +8,19 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-class AppTest {
+class ComparingShapesTest {
 
     @Test
     void correctEqualShapesType() {
         Shape shape1 = new Triangle(3.0, 4.0, 4.0);
         Shape shape2 = new Triangle(4.0, 6.0, 7.0);
-        assertEquals(App.isEqualShapesType(shape1, shape2), true);
+        assertEquals(ComparingShapes.isEqualShapesType(shape1, shape2), true);
     }
 
     @Test
     void incorrectEqualShapesType() {
         Shape shape1 = new Triangle(3.0, 4.0, 4.0);
         Shape shape2 = new Rectangle(4.0, 6.0);
-        assertEquals(App.isEqualShapesType(shape1, shape2), false);
+        assertEquals(ComparingShapes.isEqualShapesType(shape1, shape2), false);
     }
 }
