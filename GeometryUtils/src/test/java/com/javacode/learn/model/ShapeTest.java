@@ -1,6 +1,5 @@
 package com.javacode.learn.model;
 
-
 import com.javacode.learn.model.impl.Circle;
 import com.javacode.learn.model.impl.Rectangle;
 import com.javacode.learn.model.impl.Triangle;
