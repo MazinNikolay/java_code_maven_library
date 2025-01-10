@@ -1,9 +1,9 @@
-package test.java.com.javacode.learn.model;
+package com.javacode.learn.model;
+
 
 import com.javacode.learn.model.impl.Circle;
 import com.javacode.learn.model.impl.Rectangle;
 import com.javacode.learn.model.impl.Triangle;
-import com.javacode.learn.model.Shape;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
